@@ -3154,6 +3154,46 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!1001 &975502052
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2123120002}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.34807158
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.92214203
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.4890976
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707007527
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.0118497889
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.0118497889
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707007527
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+  m_RootGameObject: {fileID: 1172792438}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1003513205
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,8 +4117,8 @@ MeshFilter:
 --- !u!1 &1172792438
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100046, guid: 4ccd0e1018a47a54991bbc87327f0d8c, type: 3}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 100000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+  m_PrefabInternal: {fileID: 975502052}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1172792439}
@@ -4095,8 +4135,8 @@ GameObject:
 --- !u!4 &1172792439
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400046, guid: 4ccd0e1018a47a54991bbc87327f0d8c, type: 3}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 400000, guid: 53778a0900db8624f93b7b7bd730095e, type: 2}
+  m_PrefabInternal: {fileID: 975502052}
   m_GameObject: {fileID: 1172792438}
   m_LocalRotation: {x: -.707007527, y: -.0118497889, z: -.0118497889, w: .707007527}
   m_LocalPosition: {x: 1.34807158, y: 2.92214203, z: 5.4890976}
@@ -4106,9 +4146,9 @@ Transform:
 --- !u!64 &1172792440
 MeshCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6400044, guid: 4ccd0e1018a47a54991bbc87327f0d8c,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 6400000, guid: 53778a0900db8624f93b7b7bd730095e,
+    type: 2}
+  m_PrefabInternal: {fileID: 975502052}
   m_GameObject: {fileID: 1172792438}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -4120,9 +4160,9 @@ MeshCollider:
 --- !u!23 &1172792441
 Renderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300044, guid: 4ccd0e1018a47a54991bbc87327f0d8c,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 2300000, guid: 53778a0900db8624f93b7b7bd730095e,
+    type: 2}
+  m_PrefabInternal: {fileID: 975502052}
   m_GameObject: {fileID: 1172792438}
   m_Enabled: 1
   m_CastShadows: 1
@@ -4142,9 +4182,9 @@ Renderer:
 --- !u!33 &1172792442
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300044, guid: 4ccd0e1018a47a54991bbc87327f0d8c,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 3300000, guid: 53778a0900db8624f93b7b7bd730095e,
+    type: 2}
+  m_PrefabInternal: {fileID: 975502052}
   m_GameObject: {fileID: 1172792438}
   m_Mesh: {fileID: 4300008, guid: 4ccd0e1018a47a54991bbc87327f0d8c, type: 3}
 --- !u!1 &1176434064
@@ -7357,8 +7397,8 @@ Transform:
   - {fileID: 545725613}
   - {fileID: 1019630009}
   - {fileID: 1003513206}
-  - {fileID: 1172792439}
   - {fileID: 253650857}
+  - {fileID: 1172792439}
   - {fileID: 906455970}
   - {fileID: 928870005}
   - {fileID: 1141864526}

@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\Carl\Documents\GitHub\Lost-Memory\Assets\Sample Assets\Effects\Light Shafts\Scripts\LightShafts.Resources.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Temp\Compiled-Normal-BumpSpec.shader">
     <Files>
-      <File FileName="Assets\DoorOpen.cs" Line="14" Column="31" />
-      <File FileName="c:\Users\Carl\Documents\GitHub\Lost-Memory\Assets\Sample Assets\Effects\Light Shafts\Scripts\LightShafts.Resources.cs" Line="103" Column="119" />
+      <File FileName="Temp\Compiled-Normal-BumpSpec.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

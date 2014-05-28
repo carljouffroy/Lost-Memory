@@ -59,7 +59,7 @@ public class FirstPersonHeadBob : MonoBehaviour {
 		{
 			// we automatically add an audiosource, if one has not been manually added.
 			// (if you want to control the rolloff or other audio settings, add an audiosource manually)
-			gameObject.AddComponent<AudioSource>();
+
 		}
 		prevPosition = rigidbody.position;
 	}

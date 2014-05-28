@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp\Compiled-Normal-BumpSpec.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\Part Time 2013\Documents\GitHub\LM0.2\Assets\Sample Assets\Effects\Light Shafts\Scripts\LightShafts.Resources.cs">
     <Files>
-      <File FileName="Temp\Compiled-Normal-BumpSpec.shader" Line="1" Column="1" />
+      <File FileName="..\LM0.2\Assets\TriggerSound.cs" Line="10" Column="4" />
+      <File FileName="c:\Users\Part Time 2013\Documents\GitHub\LM0.2\Assets\Sample Assets\Effects\Light Shafts\Scripts\LightShafts.Resources.cs" Line="103" Column="119" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
